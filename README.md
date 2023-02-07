@@ -1,6 +1,6 @@
 # digital-elektronic-1
 
-###Header (Nadpisy)
+## Header (Nadpisy)
 
 # H1
 ## H2
@@ -17,7 +17,7 @@ Alt-H1
 Alt-H2
 ------
 
-###Emphasis (formáty)
+## Emphasis (formáty)
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
@@ -27,7 +27,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-###Lists
+## Lists
 
 1. First ordered list item
 2. Another item
@@ -46,7 +46,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 - Or minuses
 + Or pluses
 
-###Links
+## Links
 
 [I'm an inline-style link](https://www.google.com)
 
