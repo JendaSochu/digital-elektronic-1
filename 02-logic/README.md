@@ -17,7 +17,12 @@
 | 14 | 11 | 10	| 1 | 0 | 0 |
 | 15 | 11 | 11	| 0 | 1 | 0 |
 
+4-bit comparator
+Listing of VHDL stimulus process from testbench file (testbench.vhd) with at least one assert (use BCD codes of your student ID digits as input combinations). Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
+Last two digits of my student ID: 230174
 
 
 https://www.edaplayground.com/x/Kywa
+
+
