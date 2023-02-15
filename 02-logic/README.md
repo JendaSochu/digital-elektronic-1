@@ -26,8 +26,7 @@
 
 2.Mark the largest possible implicants in the K-map and according to them, write the equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-〖greater〗_SoP^(min.)=b_1∙(a_1 ) ̅+b_1∙(a_0 ) ̅∙b_0+b_0∙(a_0 ) ̅∙(a_1 ) ̅
-〖less〗_PoS^(min.)=(a_0+a_1 )∙((b_1 ) ̅+(b_0 ) ̅ )∙(a_0+(b_1 ) ̅ )∙((b_1 ) ̅+a_1 )∙((b_0 ) ̅+a_1 )
+![image](https://user-images.githubusercontent.com/124675939/219035768-c7dfb1a4-6689-4f37-bc43-b3008fe80de4.png)
 
 ## 4-bit comparator
 1. Listing of VHDL stimulus process from testbench file (testbench.vhd) with at least one assert (use BCD codes of your student ID digits as input combinations). Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
