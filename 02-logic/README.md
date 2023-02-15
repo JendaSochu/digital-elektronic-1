@@ -33,7 +33,7 @@
 
 Last two digits of my student ID: 230174
 
-
+'''vhdl
 p_stimulus : process
     begin
         -- Report a note at the beginning of stimulus process
@@ -58,6 +58,7 @@ p_stimulus : process
         report "Stimulus process finished";
         wait; -- Data generation process is suspended forever
     end process p_stimulus;
+'''
 
 https://www.edaplayground.com/x/Kywa
 
