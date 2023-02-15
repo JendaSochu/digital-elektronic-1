@@ -34,6 +34,31 @@
 Last two digits of my student ID: 230174
 
 
+p_stimulus : process
+    begin
+        -- Report a note at the beginning of stimulus process
+        report "Stimulus process started";
+
+        -- First test case ...
+        s_b <= "0111"; -- Such as "0101" if ID = xxxx56
+        s_a <= "0100"; -- Such as "0110" if ID = xxxx56
+        wait for 100 ns;
+        -- ... and its expected outputs
+        assert ((s_B_greater_A = '1') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '0'))
+        -- If false, then report an error
+        report "Input combination 0111, 0100 FAILED" severity error;
+
+
+        -- WRITE OTHER TEST CASES HERE
+        
+
+        -- Report a note at the end of stimulus process
+        report "Stimulus process finished";
+        wait; -- Data generation process is suspended forever
+    end process p_stimulus;
+
 https://www.edaplayground.com/x/Kywa
 
 
