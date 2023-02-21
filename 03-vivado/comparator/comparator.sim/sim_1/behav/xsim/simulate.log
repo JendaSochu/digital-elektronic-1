@@ -1,0 +1,12 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: P:/Digitalni-elektronika/digital-elektronic-1/03-vivado/comparator/comparator.srcs/sim_1/new/tv_comparator_4bit.vhd
+Error: Input combination b=3, a=12 FAILED
+Time: 300 ns  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: P:/Digitalni-elektronika/digital-elektronic-1/03-vivado/comparator/comparator.srcs/sim_1/new/tv_comparator_4bit.vhd
+Error: Input combination b=8, a=9 FAILED
+Time: 400 ns  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: P:/Digitalni-elektronika/digital-elektronic-1/03-vivado/comparator/comparator.srcs/sim_1/new/tv_comparator_4bit.vhd
+Error: Input combination b=9, a=8 FAILED
+Time: 500 ns  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: P:/Digitalni-elektronika/digital-elektronic-1/03-vivado/comparator/comparator.srcs/sim_1/new/tv_comparator_4bit.vhd
+Note: Stimulus process finished
+Time: 500 ns  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: P:/Digitalni-elektronika/digital-elektronic-1/03-vivado/comparator/comparator.srcs/sim_1/new/tv_comparator_4bit.vhd
