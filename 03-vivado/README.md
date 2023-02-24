@@ -15,22 +15,13 @@ with addr_i select
            b_i when "001",
            c_i when "010",
            d_i when others; -- All other combinations
-
-p_label : process (a)
-begin
-    if (a = '0') then
-        q <= '0';
-    else
-        q <= '1';
-    end if;
-end process p_label;
-
+           
 end architecture Behavioral;
 ```
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/124675939/221178114-478dd422-ac0e-4260-90a7-62ea8d25555f.png)
 
 3. Listing of pin assignments for the Nexys A7 board in `nexys-a7-50t.xdc`. **DO NOT list** the whole file, just your switch and LED settings.
 
