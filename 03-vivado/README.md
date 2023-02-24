@@ -1,4 +1,4 @@
-# Lab 3: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 3: JAN SOCHA
 
 ### Three-bit wide 4-to-1 multiplexer
 
