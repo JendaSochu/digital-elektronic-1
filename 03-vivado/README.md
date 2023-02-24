@@ -8,7 +8,22 @@
 architecture Behavioral of mux_3bit_4to1 is
 begin
 
-    -- WRITE YOUR CODE HERE
+    begin
+
+with addr_i select
+    y_o <= a_i when "000",  -- If addr_i = "000" then y_o = a_i
+           b_i when "001",
+           c_i when "010",
+           d_i when others; -- All other combinations
+
+p_label : process (a)
+begin
+    if (a = '0') then
+        q <= '0';
+    else
+        q <= '1';
+    end if;
+end process p_label;
 
 end architecture Behavioral;
 ```
