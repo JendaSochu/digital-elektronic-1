@@ -1,4 +1,4 @@
-# Lab 3: JAN SOCHA
+# Lab 3: Jan Socha
 
 ### Three-bit wide 4-to-1 multiplexer
 
