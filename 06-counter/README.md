@@ -1,4 +1,4 @@
-# Lab 6: Marek Coufal
+# Lab 6: Jan Socha
 
    | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
    | :-: | :-: | :-: | :-: |
