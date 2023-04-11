@@ -1,41 +1,46 @@
- p_mux : process (clk) is
+ multiplexer : process (clk) is
   begin
 
+   counter <= '0'
+   counter_1 <= '0'
+   
     if (rising_edge(clk)) then
-      if (rst = '1') then
-        sig_hex <= data0;
-        dp      <= dp_vect(0);
-        dig     <= "1110";
+      if (vysilac = '1') then
+        counter <= counter + 1;
       else
-
-        case sig_cnt_2bit is
-
-          when "11" =>
-            sig_hex <= data3;
-            dp      <= dp_vect(3);
-            dig     <= "0111";
-
-          when "10" =>
-            -- DEFINE ALL OUTPUTS FOR "10" HERE
-            sig_hex <= data2;
-            dp      <= dp_vect(2);
-            dig     <= "1011";
-
-          when "01" =>
-            -- DEFINE ALL OUTPUTS FOR "01" HERE
-            sig_hex <= data1;
-            dp      <= dp_vect(1);
-            dig     <= "1101";
-
-          when others =>
-            -- DEFINE ALL OUTPUTS FOR "00" HERE
-            sig_hex <= data0;
-            dp      <= dp_vect(0);
-            dig     <= "1110";
-
-        end case;
-
+        counter_1 <= counter_1 + 1;
       end if;
     end if;
+    
+    if (counter = '7') then
+      counter <= '0'
+    end if
+     
+case counter is
 
-  end process p_mux;
+          when "0" =>
+            vystup <= tlačítko_0
+
+          when "1" =>
+            vystup <= tlačítko_1
+ 
+          when "2" =>
+            vystup <= tlačítko_2
+ 
+          when "3" =>
+            vystup <= tlačítko_3
+ 
+          when "4" =>
+            vystup <= tlačítko_4
+ 
+          when "5" =>
+            vystup <= tlačítko_5
+ 
+          when "6" =>
+            vystup <= tlačítko_6
+          
+         when "7" =>
+            vystup <= tlačítko_7
+        end case;
+         
+  end process multiplexer;
